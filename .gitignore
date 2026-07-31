@@ -1,0 +1,13 @@
+# NetBeans build/dist output (generated from source, do not track)
+ALDIWAN6/build/
+ALDIWAN6/dist/
+
+# NetBeans local/private IDE settings
+ALDIWAN6/nbproject/private/
+
+# Local database credentials (copy from db.properties.example)
+ALDIWAN6/src/db.properties
+
+# OS/editor cruft
+.DS_Store
+*.swp
