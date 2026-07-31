@@ -4,7 +4,7 @@ A desktop restaurant management application built with **Java Swing** and **MySQ
 
 A full project report (objectives, architecture, database design, and OOP concepts applied) is available at [`docs/ALDIWAN_Project_Report.docx`](docs/ALDIWAN_Project_Report.docx).
 
-Verified working end to end: builds with plain `ant run` (no NetBeans required), connects to MySQL, and runs through login and the manager dashboard.
+Builds and runs with a single `ant run` command (no NetBeans required), connects to MySQL, and covers the full flow from login through the manager dashboard.
 
 ## Features
 
