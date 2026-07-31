@@ -1,8 +1,8 @@
-# 🍕 ALDIWAN — Restaurant Management System
+# ALDIWAN — Restaurant Management System
 
 A desktop restaurant management application built with **Java Swing** and **MySQL**, developed as an Object-Oriented Programming project. ALDIWAN handles staff login, order taking, delivery, credit card payments, and manager analytics — all through a NetBeans GUI project.
 
-## ✨ Features
+## Features
 
 - **Role-based login** — Managers and staff (`user`) log in separately and land on different screens.
 - **Manager Dashboard** (`Dash2`) — Live charts (bar & pie, via JFreeChart) for staff counts, payment-type breakdowns, and order categories, plus staff (person) record management: add, update, delete.
@@ -11,7 +11,7 @@ A desktop restaurant management application built with **Java Swing** and **MySQ
 - **Credit Payments** (`CreditForm`) — Record card payments (card number, name on card, expiry date) linked to a customer and staff member.
 - **MySQL-backed persistence** — All customers, menu items, orders, payments, staff, and takeaway records are stored in the `aldiwandb` database.
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 ALDIWAN6/
@@ -32,7 +32,7 @@ ALDIWAN6/
 └── build.xml              # Ant build script
 ```
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer      | Technology                                  |
 |------------|----------------------------------------------|
@@ -42,7 +42,7 @@ ALDIWAN6/
 | Connector  | MySQL Connector/J                             |
 | Build      | Apache Ant / NetBeans project                 |
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java JDK 8+
@@ -77,10 +77,10 @@ ant run
 java -jar ALDIWAN6/dist/ALDIWAN.jar
 ```
 
-## 👤 Sample Login
+## Sample Login
 
 The seeded database includes sample accounts you can log in with (see `person` table in `aldiwandb.sql`) — one `Manager` role account and several `user` role accounts.
 
-## 📄 License
+## License
 
 This project was created for educational purposes as part of an Object-Oriented Programming course.
