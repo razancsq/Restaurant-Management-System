@@ -91,6 +91,8 @@ java -jar dist/ALDIWAN.jar
 **Option C: NetBeans**
 Open the `ALDIWAN6` folder as a project and run it.
 
+> **Note:** The Swing forms use the `AbsoluteLayout` designer library. Normally this is a NetBeans-provided global library, only available inside the IDE, which is why building with plain Ant from outside NetBeans used to fail. A copy is now vendored at `ALDIWAN6/lib/AbsoluteLayout.jar` and wired into the project config, so `ant run` / `ant jar` work with no manual setup, in NetBeans or from the command line.
+
 ## Sample Login
 
 The seeded database includes sample accounts you can log in with (see `person` table in `aldiwandb.sql`): one `Manager` role account and several `user` role accounts.
