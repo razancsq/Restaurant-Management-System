@@ -2,6 +2,8 @@
 
 A desktop restaurant management application built with **Java Swing** and **MySQL**, developed as an Object-Oriented Programming project. ALDIWAN handles staff login, order taking, delivery, credit card payments, and manager analytics — all through a NetBeans GUI project.
 
+A full project report (objectives, architecture, database design, and OOP concepts applied) is available at [`docs/ALDIWAN_Project_Report.docx`](docs/ALDIWAN_Project_Report.docx).
+
 ## Features
 
 - **Role-based login** — Managers and staff (`user`) log in separately and land on different screens.
